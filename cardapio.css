@@ -1,0 +1,94 @@
+nav{
+    display: flex;
+    align-items: center;
+}
+.barra{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding: 0.5em;
+    border: 0;
+    border-radius: 75px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 5em;
+}
+
+.barra .icon img{
+    width: 3em;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    width: 7%;
+}
+
+.cont_main{
+    display: grid;
+    justify-items: center;
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    justify-content: center;
+}
+.sub_cont{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 5em;
+    align-items: flex-end;
+}
+.sub_cont img{
+    margin-bottom: 2em;
+}
+.sub_cont .img1{
+    width: 7em;
+}
+.sub_cont .img2{
+    width: 7em;
+}
+.sub_cont .img3{
+    width: 5em;
+}
+
+.sub_cont .img4{
+    width: 3em;
+}
+.sub_cont .img5{
+    width: 4em;
+}
+.sub_cont .img6{
+    width: 5em;
+}
+.produto{
+    display: grid;
+    justify-items: center;
+    height: 12em;
+    width: 17em;
+    padding: 3em;
+    text-align: center;
+    margin: 0 2em;
+    background-color: #262626;
+    border: 0;
+    border-radius: 25px;
+}
+.produto span{
+    color: #ffffff;
+    font-size: 1em;
+}
+.produto button{
+    font-size: 1em;
+    width: 5em;
+    border: 0;
+    margin-top: 1em;
+    border-radius: 40em;
+    padding: 0;
+}
+
+.produto button:hover{
+    color: #ffffff;
+    background-color: #0f0f0f;
+}

@@ -1,0 +1,47 @@
+.logo{
+    position: absolute;
+    top: 0;
+    width: 7%;
+}
+.msg{
+    display: grid;
+    justify-items: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-45%);
+}
+.ajuda_img{
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-45%);
+    
+}
+input{
+    background-color: #262626;
+    color: #ffffff;
+    padding: 1em;
+    border: 0;
+    border-radius: 50px;
+    width: 50em;
+    margin-bottom: 2em;
+}
+input::placeholder{
+    color: #e3e3e3;
+}
+
+button{
+    background-color: #d10e0e;
+    color: #ffffff;
+    border: 0;
+    padding: 1em;
+    width: 7em;
+    border-radius: 15px;
+    transition: 1.3s;
+}
+button:hover{
+    background-color: #9a0e0e;
+    scale: 1.1;
+}
